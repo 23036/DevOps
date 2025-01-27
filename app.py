@@ -12,7 +12,7 @@ def object():
 
 @app.route('/about')
 def about():
-    return "This is the page profile"
+    return "This is our page "
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
